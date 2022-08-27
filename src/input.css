@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  /* General */
+
+  img {
+    @apply w-full;
+  }
+
+  /* Utilities */
+
+  .container {
+    @apply px-6;
+  }
+}
