@@ -19,6 +19,10 @@
     @apply px-6;
   }
 
+  .section-main-paragraph {
+    @apply text-sm text-center text-neutral-grayishblue md:text-lg sm:text-left;
+  }
+
   .cta-btn {
     @apply text-sm font-bold text-white bg-main-gradient pt-2.75 pb-3 pl-8.25 pr-8.5 rounded-full hover:opacity-60 transition-all;
   }
@@ -50,6 +54,6 @@
   }
 
   .header.active .header-nav {
-    @apply py-7 h-max lg:pb-0;
+    @apply py-7 h-max lg:pb-0 shadow-header-nav;
   }
 }

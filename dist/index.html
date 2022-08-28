@@ -34,7 +34,7 @@
   </head>
   <body class="text-lg debug-screens font-publicsans">
     <!-- Header -->
-    <header class="header">
+    <header class="relative z-50 bg-white header">
       <div
         class="container flex items-center justify-between py-5.5 lg:py-0 relative"
       >
@@ -45,7 +45,7 @@
         <!-- Header navigation menu -->
         <nav>
           <ul
-            class="header-nav flex flex-col lg:flex-row items-center gap-4 lg:gap-7.75 lg:pt-6 lg:pb-0 absolute mt-6 py-0 h-0 top-full left-6 right-6 lg:relative lg:top-auto lg:left-auto lg:right-auto lg:bottom-0 lg:mt-0 rounded-md lg:rounded-none overflow-hidden transition-all lg:h-max bg-white"
+            class="header-nav flex flex-col lg:flex-row items-center gap-4 lg:gap-7.75 lg:pt-6 lg:pb-0 absolute mt-6 py-0 h-0 top-full left-6 right-6 z-50 lg:relative lg:top-auto lg:left-auto lg:right-auto lg:bottom-0 lg:mt-0 rounded-md lg:rounded-none overflow-hidden transition-all lg:h-max bg-white lg:shadow-none"
           >
             <li>
               <a href="#" class="header-nav-link">Home</a>
@@ -85,40 +85,52 @@
         </div>
       </div>
     </header>
-    <main>
+    <main class="overflow-hidden">
       <!-- Hero -->
-      <section>
+      <section class="relative bg-neutral-verylightgray">
         <!-- Hero background mobile -->
-        <div>
+        <div class="sm:hidden h-70.25 absolute top-0 left-0 right-0 z-0">
           <img
             src="./assets/images/03_hero/bg-intro-mobile.png"
             alt="Mobile background image of the first section"
+            class="object-cover object-bottom h-full"
           />
         </div>
-        <div class="container">
+        <div class="container relative sm:pt-42.25 pb-22 sm:pb-42.5">
           <!-- Hero background desktop -->
-          <div>
+          <div
+            class="absolute hidden top-0 lg:-top-64 -right-1/2 lg:-right-full xl:-right-146 sm:block w-146 lg:w-299.75 z-0 bottom-0 overflow-hidden"
+          >
             <img
               src="./assets/images/03_hero/bg-intro-desktop.png"
               alt="Desktop background image of the first section"
             />
           </div>
           <!-- Hero main image -->
-          <div>
+          <div
+            class="h-70.25 sm:h-max relative right-auto top-auto z-10 sm:w-128 md:w-191.75 sm:absolute sm:-right-64 md:-right-128 lg:-right-69.5 sm:top-0 md:-top-32"
+          >
             <img
               src="./assets/images/03_hero/image-mockups.png"
               alt="Main image of the first section"
+              class="object-cover object-bottom h-full"
             />
           </div>
           <!-- Hero text box -->
-          <div>
-            <h1>Next generation digital banking</h1>
-            <p>
+          <div
+            class="mt-10.75 sm:mt-0 flex flex-col items-center sm:items-start sm:w-3/5 lg:w-1/2 sm:pr-16 md:pr-0 xl:pr-24 relative z-20"
+          >
+            <h1
+              class="text-4xl md:text-6xl font-light md:leading-1.15 text-primary-darkblue text-center sm:text-left"
+            >
+              Next generation digital banking
+            </h1>
+            <p class="mt-4.75 md:mt-5.75 section-main-paragraph">
               Take your financial life online. Your Easybank account will be a
               one-stop-shop for spending, saving, budgeting, investing, and much
               more.
             </p>
-            <div>
+            <div class="mt-8.5 md:mt-8.75">
               <a href="#" class="cta-btn">Request Invite</a>
             </div>
           </div>
