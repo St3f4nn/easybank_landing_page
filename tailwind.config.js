@@ -25,8 +25,25 @@ module.exports = {
           verylightgray: "hsl(0, 0%, 98%)",
         },
       },
+      backgroundImage: {
+        "main-gradient":
+          "linear-gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%))",
+      },
       fontFamily: {
         publicsans: "'Public Sans', sans-serif",
+      },
+      width: {
+        4.5: "18px",
+        34.75: "139px",
+      },
+      spacing: {
+        0.75: "3px",
+        2.75: "11px",
+        5.5: "22px",
+        6.5: "26px",
+        7.75: "31px",
+        8.25: "33px",
+        8.5: "34px",
       },
     },
   },

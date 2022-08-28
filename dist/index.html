@@ -34,45 +34,49 @@
   </head>
   <body class="text-lg debug-screens font-publicsans">
     <!-- Header -->
-    <header>
-      <div class="container">
+    <header class="header">
+      <div
+        class="container flex items-center justify-between py-5.5 lg:py-0 relative"
+      >
         <!-- Header image -->
-        <div>
+        <div class="w-34.75">
           <img src="./assets/images/02_header/logo.svg" alt="Easybank logo" />
         </div>
         <!-- Header navigation menu -->
         <nav>
-          <ul>
+          <ul
+            class="header-nav flex flex-col lg:flex-row items-center gap-4 lg:gap-7.75 lg:pt-6 lg:pb-0 absolute mt-6 py-0 h-0 top-full left-6 right-6 lg:relative lg:top-auto lg:left-auto lg:right-auto lg:bottom-0 lg:mt-0 rounded-md lg:rounded-none overflow-hidden transition-all lg:h-max"
+          >
             <li>
-              <a href="#">Home</a>
+              <a href="#" class="header-nav-link">Home</a>
             </li>
             <li>
-              <a href="#">About</a>
+              <a href="#" class="header-nav-link">About</a>
             </li>
             <li>
-              <a href="#">Contact</a>
+              <a href="#" class="header-nav-link">Contact</a>
             </li>
             <li>
-              <a href="#">Blog</a>
+              <a href="#" class="header-nav-link">Blog</a>
             </li>
             <li>
-              <a href="#">Careers</a>
+              <a href="#" class="header-nav-link">Careers</a>
             </li>
           </ul>
         </nav>
         <!-- Header CTA button -->
-        <div>
-          <a href="#">Request Invite</a>
+        <div class="hidden lg:block">
+          <a href="#" class="cta-btn">Request Invite</a>
         </div>
         <!-- Header hamburger icon and close button icon -->
-        <div>
-          <div>
+        <div class="header-btn">
+          <div class="header-btn-hamburger">
             <img
               src="./assets/images/02_header/icon-hamburger.svg"
               alt="Hamburger menu icon"
             />
           </div>
-          <div>
+          <div class="header-btn-close">
             <img
               src="./assets/images/02_header/icon-close.svg"
               alt="Close button icon"
