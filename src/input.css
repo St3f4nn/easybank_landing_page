@@ -74,4 +74,34 @@
   .features-grid-heading {
     @apply text-xl font-normal md:text-2xl text-primary-darkblue mt-6 sm:mt-9.5 text-center sm:text-left;
   }
+
+  /* Blog */
+
+  .blog-grid-item {
+    @apply overflow-hidden bg-white rounded-md;
+  }
+
+  .blog-grid-item-img {
+    @apply overflow-hidden h-50;
+  }
+
+  .blog-grid-item-img img {
+    @apply object-cover h-full;
+  }
+
+  .blog-grid-item-text {
+    @apply pt-5 pb-10.5 sm:pb-6 px-7.75 sm:px-6 xl:pr-8;
+  }
+
+  .blog-grid-item-text-author {
+    @apply block text-xxs text-neutral-grayishblue;
+  }
+
+  .blog-grid-item-text-link {
+    @apply leading-tight transition-all text-primary-darkblue hover:text-primary-brightlimegreen;
+  }
+
+  .blog-grid-item-text-paragraph {
+    @apply text-xs text-neutral-grayishblue mt-1.25;
+  }
 }

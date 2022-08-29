@@ -17,6 +17,7 @@ module.exports = {
         primary: {
           darkblue: "hsl(233, 26%, 24%)",
           limegreen: "hsl(136, 65%, 51%)",
+          brightlimegreen: "hsl(160, 34%, 63%)",
           brightcyan: "hsl(192, 70%, 51%)",
         },
         neutral: {
@@ -41,10 +42,12 @@ module.exports = {
       },
       height: {
         18: "72px",
+        50: "200px",
         70.25: "281px",
       },
       spacing: {
         0.75: "3px",
+        1.25: "5px",
         2.75: "11px",
         4.125: "16.5px",
         4.25: "17px",
@@ -54,16 +57,20 @@ module.exports = {
         5.75: "23px",
         6.25: "25px",
         6.5: "26px",
+        7.5: "30px",
         7.75: "31px",
         8.25: "33px",
         8.5: "34px",
         8.75: "35px",
         9.5: "38px",
+        10.5: "42px",
         10.75: "43px",
+        13: "52px",
         14.5: "58px",
         16.5: "66px",
         17.75: "71px",
         22: "88px",
+        22.5: "90px",
         25.5: "102px",
         26.5: "106px",
         42.25: "169px",
@@ -77,6 +84,9 @@ module.exports = {
       },
       boxShadow: {
         "header-nav": "0px 45px 50px 50px rgba(45,49,77,0.5)",
+      },
+      fontSize: {
+        xxs: "10px",
       },
     },
   },
