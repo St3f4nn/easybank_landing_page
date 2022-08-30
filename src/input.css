@@ -104,4 +104,10 @@
   .blog-grid-item-text-paragraph {
     @apply text-xs text-neutral-grayishblue mt-1.25;
   }
+
+  /* Footer */
+
+  .footer-nav-link {
+    @apply text-base transition-all text-neutral-lightgrayishblue hover:text-primary-darklimegreen;
+  }
 }
