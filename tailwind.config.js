@@ -17,6 +17,7 @@ module.exports = {
         primary: {
           darkblue: "hsl(233, 26%, 24%)",
           limegreen: "hsl(136, 65%, 51%)",
+          darklimegreen: "hsl(155, 60%, 50%)",
           brightlimegreen: "hsl(160, 34%, 63%)",
           brightcyan: "hsl(192, 70%, 51%)",
         },
